@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/font/stylesheet.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="css/100.reset.css">
+    <link rel="stylesheet" href="css/200.buttons.css">
+    <link rel="stylesheet" href="css/1.base.css">
+    <link rel="stylesheet" href="css/2.mainScreen.css">
+    <link rel="stylesheet" href="css/3.mainAdvantage.css">
+    <link rel="stylesheet" href="css/3.cards.css">
+    <link rel="stylesheet" href="css/4.theses.css">
+    <link rel="stylesheet" href="css/5.logos.css">
+    <link rel="stylesheet" href="css/6.actions.css">
+    <link rel="stylesheet" href="css/7.reviews.css">
+    <link rel="stylesheet" href="css/consultation.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/mobileapp.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<div class="container">
+    <div class="backgroundPage">
+        <header class="header">
+            <div class="headerNav">
+                <div class="logo"><img src="./img/logo.svg" alt="logo"></div>
+                <ul class="navList">
+                    <li class="navItem"><a href="#!" class="navLink">Услуги <img src="./img/arrowbottom.svg"></a></li>
+                    <li class="navItem"><a href="#!" class="navLink">О компании</a></li>
+                    <li class="navItem"><a href="#!" class="navLink">Гарантии</a></li>
+                    <li class="navItem"><a href="#!" class="navLink">Новости</a></li>
+                    <li class="navItem"><a href="#!" class="navLink">Акции</a></li>
+                    <li class="navItem"><a href="#!" class="navLink">Контакты</a></li>
+                </ul>
+                <div class="rightSide">
+                    <div class="border"></div>
+                    <div class="navbtn"><img src="./img/3palki.svg"></div>
+                    <div class="btnRegister"><button class="btnRegister1">Запись на сервис</button></div>
+                </div>
+            </div>
+        </header>
+        <section class="main-screen">
+            <!-- LeftField -->
+            <div class="content">
+                <div class="title">
+                    <h1 class="titleHeading">Специализированный Автосервис</h1>
+                    <h1 class="titleNumber">+7 (999) 123-45-67</h1>
+                </div>
+                <div class="hoursWork">
+                    <p class="x1">Работаем для вас: </p>
+                    <p class="x2">Ежедневно с 9:00 до 21:00</p>
+                </div>
+                <div class="address">
+                    <p class="x1">По адресу: </p>
+                    <p class="x2">Екатеринбург, ул. Московский тракт 7 км, 2</p>
+                </div>
+                <div class="lookServices"><button class="btnLookServices">Смотреть услуги</button></div>
+            </div>
+            <!-- RightField -->
+            <div class="rightField">
+                <div class="slider" id="slider">
+                    <img src="./img/slider/Image.jpg">
+                    <img src="./img/slider/Image(1).jpg">
+                    <img src="./img/slider/Image(2).jpg">
+                </div>
+                <div class="btnMainScreen">
+                    <div class="btnMainScreen">
+                        <button class="btnLeft" id="btnLeft"><img src="./img/btn/left.svg"></button>
+                        <button class="btnRight" id="btnRight"><img src="./img/btn/right.svg"></button>
+                    </div>
+                </div>
+                <p class="sliderNumber">1/3</p>
+            </div>
+        </section>
+        <section class="containerSecond">
+            <div class="mainAdvantage">
+                <div class="topMainAdvantage">
+                    <p class="mainAdvantageCompany">ГЛАВНОЕ ПРЕИМУЩЕСТВО КОМПАНИИ</p>
+                    <p class="mainAdvantageCompany2">#1</p>
+                </div>
+                <div class="zagolovok">
+                    <h1 class="workingSince">Работаем <br> с 2012 года</h1>
+                    <div class="test">
+                        <h2 class="mainAdvantageText1">Вашим автомобилем будут заниматься люди с большим опытом,
+                            полученным
+                            за
+                            многие годы и прошедшие множество обучений.</h2>
+                        <h2 class="mainAdvantageText2">Сотрудники обладают огромным багажом знаний, применяемых на
+                            практике.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="mainScreenCards">
+                <div class="containerServices">
+                    <h1>Услуги автосервиса</h1>
+                    <div class="column">
+                        <div class="card" onmouseover="hoverOnCard()" onmouseout="hoverOffCard()">
+                            <img src="./img/card1.jpg">
+                            <div class="containerCardContent">
+                                <div class="textServices">
+                                    <h3>Ремонт автомобиля</h3>
+                                    <p class="numberCard1">01</p>
+                                </div>
+                                <div class="btnCard"><button class="arrow" id="arrow">></button></div>
+                            </div>
+                        </div>
+                        <div class="card" onmouseover="hoverOnCard2()" onmouseout="hoverOffCard2()">
+                            <img src="./img/card2.jpg">
+                            <div class="containerCardContent">
+                                <div class="textServices">
+                                    <h3>Плановое ТО</h3>
+                                    <p class="numberCard2">02</p>
+                                </div>
+                                <div class="btnCard"><button class="arrow" id="arrow2">></button></div>
+                            </div>
+                        </div>
+
+
+                        <div class="card" onmouseover="hoverOnCard3()" onmouseout="hoverOffCard3()">
+                            <img src="./img/card3.jpg">
+                            <div class="containerCardContent">
+                                <div class="textServices">
+                                    <h3>Диагностика и ремонт</h3>
+                                    <p class="numberCard3">03</p>
+                                </div>
+                                <div class="btnCard"><button class="arrow" id="arrow3">></button></div>
+                            </div>
+                        </div>
+                        <div class="card" onmouseover="hoverOnCard4()" onmouseout="hoverOffCard4()">
+                            <img src="./img/card4.jpg">
+                            <div class="containerCardContent">
+                                <div class="textServices">
+                                    <h3>Чип тюнинг</h3>
+                                    <p class="numberCard4">04</p>
+                                </div>
+                                <div class="btnCard"><button class="arrow" id="arrow4">></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="theses">
+                <div class="frame">
+                    <h2>Обратившись к нам, в автоцентр, вы окажетесь в надёжных руках специалистов послегарантийного
+                        ремонта
+                        и технического обслуживания автомобилей.</h2>
+                    <div class="frameText">
+                        <h4>Чтобы автомобиль всегда оставался в отличной форме, необходимо выполнять регулярное ТО
+                            по программе
+                            рекомендованной производителем.</h4>
+                        <h4>Подразделение нашей компании СЕРТИФИЦИРОВАННО - это позволяет производить обслуживание
+                            вашего
+                            автомобиля С СОХРАНЕНИЕМ ГАРАНТИИ.</h4>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="firstCardTheses">
+                        <img src="./img/theses/shield.svg">
+                        <h4>Гарантия работы 1 год</h4>
+                    </div>
+                    <div class="firstCardTheses">
+                        <img src="./img/theses/human.svg">
+                        <h4>Квалифицированные сотрудники</h4>
+                    </div>
+                    <div class="firstCardTheses">
+                        <img src="./img/theses/coffe.svg">
+                        <h4>Комфортные зоны ожидания</h4>
+                    </div>
+                    <div class="firstCardTheses">
+                        <img src="./img/theses/car.svg">
+                        <h4>Современное оборудование</h4>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="containerLogos">
+            <h4>ОБСЛУЖИВАЕМ И РЕМОНТИРУЕМ</h4>
+            <div class="avtoLogos">
+                <div class="logoVolvo"><img src="./img/AvtoLogo/Volvo.svg"></div>
+                <div class="logoLangRover"><img src="./img/AvtoLogo/LandRover.svg"></div>
+                <div class="logoMercedes"><img src="./img/AvtoLogo/Mercedes.svg"></div>
+                <div class="logoBMW"><img src="./img/AvtoLogo/BMW.svg"></div>
+                <div class="logoPorsche"><img src="./img/AvtoLogo/Porsche.svg"></div>
+                <div class="logoAudi"><img src="./img/AvtoLogo/Audi.svg"></div>
+            </div>
+        </section>
+        <section class="containerSecond">
+            <h1 class="ourActions">Наши акции</h1>
+            <div class="actions">
+                <img src="./img/tires.svg">
+                <div class="actionsContent">
+                    <h1>Дарим 1000 бонусов за шиномонтаж и хранение</h1>
+                    <p>11 апреля</p>
+                    <div class="actionsBtn"><button class="arrow" id="arrow">></button>
+                        <h3>Подробнее</h3>
+                    </div>
+                    <div class="btnGroup">
+                        <button class="btnLeft"><img src="./img/btn/left.svg"></button>
+                        <button class="btnRight"><img src="./img/btn/right.svg"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="containerSecond">
+                <div class="containerReviews">
+                    <div class="visitorsReviews">
+                        <h1>Отзывы пользователей <br>об Автоцентре</h1>
+                        <h2>4.6</h2>
+                        <h3>Средняя оценка</h3>
+                    </div>
+                </div>
+            </div>
+            <section class="positionComments">
+                <div class="containerComments">
+                    <div class="personaComments">
+                        <div class="boxCardComments">
+                            <div class="person"><img src="./img/comments/person.svg"></div>
+                            <div class="boxContentComments">
+                                <h4>butyl1n_i</h4>
+                                <p>23 декабря 2020</p>
+                                <div class="starComments"><img src="./img/comments/star.svg"><img
+                                        src="./img/comments/star.svg"><img src="./img/comments/star.svg"><img
+                                        src="./img/comments/star.svg"><img src="./img/comments/transparentStar.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrowComments">
+                            <button class="btnArrowComments">←</button>
+                            <button class="btnArrowComments">→</button>
+                        </div>
+                    </div>
+                    <div class="commentsVisitors">
+                        <h3> Решил убить сразу несколько зайцев, и пока гуляли с женой по меге оставил свою
+                            Volvo
+                            на
+                            диагностику в данном центре. Знаю что меняли ранее в другом центре, и что уже нужно
+                            было
+                            поменять. В этом центре лишнего не насчитали, проблемы нашли. В следующий раз приеду
+                            уже
+                            за
+                            полным ТО.</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="bgWhite">
+                <div class="map">
+                    <div class="leftMapSide">
+                        <img src="./img/map/formap.jpg">
+                        <h3>Екатеринбург, Московский тракт 7 км, 2 <br>Телефон: +7 (999) 123-45-67</h3>
+                        <h4>Cервис: service@example.ru<br>Отдел запасных частей: parts@example.ru</h4>
+                        <div class="route1"><button class="route">Построить маршрут <img
+                                    src="./img/arrowrigth.svg"></button>
+                        </div>
+                    </div>
+                    <div class="yandexMap" id="yandexMap">
+                        <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A94631945cf8ccb7cedc43fe0970640acc961a6783fdbb551fee9145a587a7c93&amp;width=920&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+                <div class="consultation">
+                    <div class="containerSecond">
+                        <div class="containerConsultation">
+                            <div class="getConsultation">
+                                <h4>Получить консультацию</h4>
+                            </div>
+                            <div class="boxConsultation">
+                                <div class="contentConsultation">
+                                    <h2>Оставьте заявку, и наш мастер перезвонит вам, произведет предварительную
+                                        оценку
+                                        стоимости услуг и запчастей, и подберет удобное время для визита.</h2>
+                                    <button class="arrow">Оставить заявку <img src="./img/Arrows.svg"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mobileApp">
+                <div class="containerMobileapp">
+                    <div class="imagePhone">
+                        <img class="iphone1" src="./img/phone/iPhone-13.svg">
+                        <img class="iphone2" src="./img/phone/iPhone-13(2).svg">
+                    </div>
+                    <div class="mobileappContent">
+                        <h3>Скачивайте наше мобильное приложение</h3>
+                        <p><img src="./img/galka.svg">записаться на ремонт</p>
+                        <p><img src="./img/galka.svg">просмотреть историю обслуживания</p>
+                        <p><img src="./img/galka.svg">Получать постоянные акции и бонусы</p>
+                    </div>
+                    <div class="frameLinks">
+                        <a><img src="./img/appstore.svg"></a>
+                        <a><img src="./img/googleplay.svg"></a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <footer class="backgroundFooter">
+            <div class="footerContainer">
+                <div class="forCommunication">
+                    <h3>info@example.ru</h3>
+                    <p>Работаем для вас:<br>Ежедневно с 9:00 до 21:00</p>
+                    <div class="buttonsFooter">
+                        <button class=" arrow1">Обратный звонок</button>
+                        <button class="arrow2">Контроль качества</button>
+                    </div>
+                </div>
+                <div class="footerBlockFirst">
+                    <div class="footerLinks">
+                        <a>О компании</a>
+                        <a>Гарантии</a>
+                        <a>Новости</a>
+                        <a>Акции</a>
+                        <a>Контакты</a>
+                        <a>Личный кабинет</a>
+                    </div>
+                    <div class="footerMenu">
+                        <div class="autoCenters">
+                            <h2>Автоцентры</h2>
+                            <ul>
+                                <li>Автосервис VOLVO</li>
+                                <li>Автосервис Land Rover</li>
+                                <li>Автосервис VAG </li>
+                                <li>Автосервис BMW</li>
+                                <li>Автосервис Mercedes</li>
+                                <li>Кузовной ремонт и детейлинг</li>
+                            </ul>
+                        </div>
+                        <div class="servicesCenters">
+                            <h2>Услуги</h2>
+                            <ul>
+                                <li>Ремонт автомобиля</li>
+                                <li>Плановое ТО</li>
+                                <li>Диагностика</li>
+                                <li>Кузовной ремонт и детейлинг</li>
+                                <li>Чип тюнинг</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="addressFooter">
+                        <div class="addressFirst">
+                            <h2>Адрес автоцентра:</h2>
+                            <p>Екатеринбург, ул. Московский тракт 7 км, 2 <br>+7 (999) 123-45-67</p>
+                        </div>
+                        <div class="addressSecond">
+                            <h2>Центр кузовного ремонта:</h2>
+                            <p>Екатеринбург, ул. Московский тракт 7 км, 2<br>+7 (999) 123-45-67</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerContainerSecond">
+                <div class="socialFooter">
+                    <div class="imgSocial"><img src="./img/social/vk.svg"></div>
+                    <div class="imgSocial"><img src="./img/social/instagram.svg"></div>
+                    <div class="imgSocial"><img src="./img/social/twitter.svg"></div>
+                    <div class="imgSocial"><img src="./img/social/youtube.svg"></div>
+                </div>
+                <!-- <div class="addressFooter">
+                    <div class="addressFirst">
+                        <h2>Адрес автоцентра:</h2>
+                        <p>Екатеринбург, ул. Московский тракт 7 км, 2 <br>+7 (999) 123-45-67</p>
+                    </div>
+                    <div class="addressSecond">
+                        <h2>Центр кузовного ремонта:</h2>
+                        <p>Екатеринбург, ул. Московский тракт 7 км, 2<br>+7 (999) 123-45-67</p>
+                    </div>
+                </div> -->
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+
+
+<script src="scripts.js"></script>
+<script src="map.js"></script>
+</body>
+
+</html>

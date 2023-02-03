@@ -1,0 +1,41 @@
+.containerLogos h4 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 200%;
+  color: #989898;
+  margin-left: 130px;
+  margin-bottom: 110px;
+  font-family: "Arial Nova";
+  font-style: normal;
+}
+
+.avtoLogos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.avtoLogos img {
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.logoVolvo {
+  position: relative;
+}
+
+.logoVolvo::before {
+  position: absolute;
+  content: "";
+  height: 200px;
+  width: 200px;
+  color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  right: 0px;
+}
+
+.avtoLogos {
+  min-width: 200px;
+}

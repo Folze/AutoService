@@ -1,0 +1,61 @@
+.arrow {
+  border-radius: 20px;
+  background-color: #fec110;
+}
+
+.arrow.active {
+  background-color: #313232;
+}
+
+.arrow2.active {
+  background-color: #313232;
+}
+
+.arrow3.active {
+  background-color: #313232;
+}
+
+.arrow4.active {
+  background-color: #313232;
+}
+
+.btnRegister1 {
+  background-color: #fec110;
+  margin-right: 150px;
+  margin-left: 23px;
+  border-radius: 7px;
+  gap: 10px;
+  padding: 12px 20px;
+  font-size: 13px;
+  line-height: 125%;
+}
+
+.btnRegister :hover {
+  background-color: #313232;
+  color: white;
+}
+
+.btnLeft {
+  border-radius: 30px;
+  border: 1.5px solid #2c2c2c;
+  width: 60px;
+  height: 60px;
+  font-size: 0%;
+}
+
+.btnRight {
+  border-radius: 30px;
+  border: 1.5px solid #2c2c2c;
+  width: 60px;
+  height: 60px;
+  font-size: 0%;
+}
+
+.btnArrowComments {
+  font-size: 16px;
+  line-height: 125%;
+  border-radius: 30px;
+  border: 1.5px solid white;
+  width: 60px;
+  height: 60px;
+}

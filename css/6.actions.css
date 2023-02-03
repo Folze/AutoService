@@ -1,0 +1,61 @@
+.ourActions h1 {
+  margin-bottom: 60px;
+  font-size: 67px;
+  line-height: 95%;
+  color: #2c2c2c;
+}
+
+.ourActions {
+  font-size: 51px;
+  line-height: 105%;
+  letter-spacing: -0.02em;
+  margin-bottom: 60px;
+}
+
+.actions {
+  position: relative;
+  display: flex;
+}
+
+.actionsContent {
+  margin-left: 40px;
+}
+
+.actionsContent h1 {
+  font-size: 51px;
+  line-height: 105%;
+  letter-spacing: -0.02em;
+}
+
+.actionsContent p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 140%;
+  color: #989898;
+}
+
+.actionsBtn {
+  display: flex;
+  margin-top: 40px;
+}
+
+.actionsBtn .arrow {
+  width: 40px;
+  height: 40px;
+}
+
+.actionsBtn h3 {
+  margin-left: 10px;
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2c2c2c;
+}
+
+.btnGroup {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}

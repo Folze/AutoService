@@ -1,0 +1,27 @@
+body {
+  font-family: "Arial Nova";
+  font-weight: 400;
+  font-size: 20px;
+  background: black;
+  margin: 0;
+}
+
+h3 {
+  font-size: 21px;
+  line-height: 120%;
+  color: #2c2c2c;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.backgroundPage {
+  background-color: #e4e4e4;
+}
+
+.containerSecond {
+  margin: 180px 130px;
+}

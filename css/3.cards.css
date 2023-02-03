@@ -1,0 +1,51 @@
+.mainScreenCards h1 {
+  font-size: 67px;
+  line-height: 95%;
+  color: #2c2c2c;
+  margin-top: 180px;
+  margin-bottom: 60px;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column .card {
+  margin-bottom: 40px;
+}
+
+.column :hover {
+  background-color: #fec110;
+}
+
+.card {
+  max-width: 650px;
+  min-height: 490px;
+  background-color: white;
+}
+
+.textServices {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.containerCardContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerCardContent button {
+  margin-top: 45px;
+  margin-right: 40px;
+}
+
+.column :hover button {
+  color: white;
+}
+
+.btnCard .arrow {
+  width: 40px;
+  height: 40px;
+}
