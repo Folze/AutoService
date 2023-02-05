@@ -18,10 +18,11 @@
 
 .column :hover {
   background-color: #fec110;
+  transition: 0.8s;
 }
 
 .card {
-  max-width: 650px;
+  min-width: 650px;
   min-height: 490px;
   background-color: white;
 }

@@ -17,6 +17,10 @@
   display: flex;
 }
 
+.actions .imgTires {
+  min-width: 345px;
+}
+
 .actionsContent {
   margin-left: 40px;
 }

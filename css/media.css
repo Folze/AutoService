@@ -1,0 +1,17 @@
+@media (max-width: 1230px) {
+  .navList {
+    display: none;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .navbtn {
+    display: block;
+  }
+
+  .backgroundPage {
+    max-width: 1230px;
+  }
+} ;
