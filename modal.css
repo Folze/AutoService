@@ -57,7 +57,70 @@
 .modalClose {
   width: 100px;
   height: 100px;
-  background: #fec110;
   position: absolute;
-  color: blue;
+  display: flex;
+  border: 1.5px solid #2c2c2c;
+  background: #fec110;
+}
+.modalClose h1 {
+  margin: 35px 20px 40px 40px;
+}
+
+.modalText {
+  margin: 100px 0px 0px 60px;
+}
+
+.modalText h1 {
+  font-size: 38px;
+  line-height: 110%;
+}
+
+.modalText input {
+  width: 680px;
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #989898;
+  border-radius: 7px;
+  color: #2c2c2c;
+}
+
+.modalText input:first-child {
+  margin-top: 40px;
+}
+
+.modalComments {
+  height: 180px;
+}
+
+.modalInput {
+  font-size: 16px;
+  line-height: 140%;
+  height: 80px;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 60px 0px 0px;
+}
+
+.modalFooter p {
+  font-size: 14px;
+  line-height: 140%;
+  color: #989898;
+}
+
+.modalFooter button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #fec110;
+  border-radius: 7px;
+  padding: 20px 40px;
+  gap: 10px;
+}
+
+.colortextModal {
+  color: #2c2c2c;
 }

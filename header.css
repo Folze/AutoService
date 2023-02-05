@@ -39,9 +39,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-.border {
-  border-bottom: 1px solid #eeecec;
-  padding-left: 23px;
-  transform: rotate(90deg);
-}

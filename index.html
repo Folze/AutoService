@@ -39,11 +39,11 @@
                     <li class="navItem"><a href="#!" class="navLink">Контакты</a></li>
                 </ul>
                 <div class="rightSide">
-                    <div class="border"></div>
                     <div class="navbtn"><img src="./img/3palki.svg"></div>
                     <div class="btnRegister"><a href="#modal" class="btnRegister1">Запись на сервис</a></div>
                 </div>
             </div>
+            <div class="border"></div>
         </header>
         <section class="main-screen">
             <!-- LeftField -->
@@ -60,7 +60,8 @@
                     <p class="x1">По адресу: </p>
                     <p class="x2">Екатеринбург, ул. Московский тракт 7 км, 2</p>
                 </div>
-                <div class="lookServices"><button class="btnLookServices">Смотреть услуги</button></div>
+                <div class="lookServices"><a class="btnLookServices" href="#cardTitle">Смотреть услуги</a>
+                </div>
             </div>
             <!-- RightField -->
             <div class="rightField">
@@ -99,56 +100,59 @@
                             полученным
                             за
                             многие годы и прошедшие множество обучений.</h2>
-                        <h2 class="mainAdvantageText2">Сотрудники обладают огромным багажом знаний, применяемых на
+                        <h2 class="mainAdvantageText2">Сотрудники обладают огромным багажом знаний,
+                            применяемых на
                             практике.
                         </h2>
                     </div>
                 </div>
             </div>
-            <div class="mainScreenCards">
-                <div class="containerServices">
-                    <h1>Услуги автосервиса</h1>
-                    <div class="column">
-                        <div class="card" onmouseover="hoverOnCard()" onmouseout="hoverOffCard()">
-                            <img src="./img/card1.jpg">
-                            <div class="containerCardContent">
-                                <div class="textServices">
-                                    <h3>Ремонт автомобиля</h3>
-                                    <p class="numberCard1">01</p>
+            <div id="cardTitle">
+                <div class="mainScreenCards">
+                    <div class="containerServices">
+                        <h1>Услуги автосервиса</h1>
+                        <div class="column">
+                            <div class="card" onmouseover="hoverOnCard()" onmouseout="hoverOffCard()">
+                                <img src="./img/card1.jpg">
+                                <div class="containerCardContent">
+                                    <div class="textServices">
+                                        <h3>Ремонт автомобиля</h3>
+                                        <p class="numberCard1">01</p>
+                                    </div>
+                                    <div class="btnCard"><button class="arrow" id="arrow">></button></div>
                                 </div>
-                                <div class="btnCard"><button class="arrow" id="arrow">></button></div>
                             </div>
-                        </div>
-                        <div class="card" onmouseover="hoverOnCard2()" onmouseout="hoverOffCard2()">
-                            <img src="./img/card2.jpg">
-                            <div class="containerCardContent">
-                                <div class="textServices">
-                                    <h3>Плановое ТО</h3>
-                                    <p class="numberCard2">02</p>
+                            <div class="card" onmouseover="hoverOnCard2()" onmouseout="hoverOffCard2()">
+                                <img src="./img/card2.jpg">
+                                <div class="containerCardContent">
+                                    <div class="textServices">
+                                        <h3>Плановое ТО</h3>
+                                        <p class="numberCard2">02</p>
+                                    </div>
+                                    <div class="btnCard"><button class="arrow" id="arrow2">></button></div>
                                 </div>
-                                <div class="btnCard"><button class="arrow" id="arrow2">></button></div>
                             </div>
-                        </div>
 
 
-                        <div class="card" onmouseover="hoverOnCard3()" onmouseout="hoverOffCard3()">
-                            <img src="./img/card3.jpg">
-                            <div class="containerCardContent">
-                                <div class="textServices">
-                                    <h3>Диагностика и ремонт</h3>
-                                    <p class="numberCard3">03</p>
+                            <div class="card" onmouseover="hoverOnCard3()" onmouseout="hoverOffCard3()">
+                                <img src="./img/card3.jpg">
+                                <div class="containerCardContent">
+                                    <div class="textServices">
+                                        <h3>Диагностика и ремонт</h3>
+                                        <p class="numberCard3">03</p>
+                                    </div>
+                                    <div class="btnCard"><button class="arrow" id="arrow3">></button></div>
                                 </div>
-                                <div class="btnCard"><button class="arrow" id="arrow3">></button></div>
                             </div>
-                        </div>
-                        <div class="card" onmouseover="hoverOnCard4()" onmouseout="hoverOffCard4()">
-                            <img src="./img/card4.jpg">
-                            <div class="containerCardContent">
-                                <div class="textServices">
-                                    <h3>Чип тюнинг</h3>
-                                    <p class="numberCard4">04</p>
+                            <div class="card" onmouseover="hoverOnCard4()" onmouseout="hoverOffCard4()">
+                                <img src="./img/card4.jpg">
+                                <div class="containerCardContent">
+                                    <div class="textServices">
+                                        <h3>Чип тюнинг</h3>
+                                        <p class="numberCard4">04</p>
+                                    </div>
+                                    <div class="btnCard"><button class="arrow" id="arrow4">></button></div>
                                 </div>
-                                <div class="btnCard"><button class="arrow" id="arrow4">></button></div>
                             </div>
                         </div>
                     </div>
@@ -264,7 +268,8 @@
                     <div class="leftMapSide">
                         <img src="./img/map/formap.jpg">
                         <h3>Екатеринбург, Московский тракт 7 км, 2 <br>Телефон: +7 (999) 123-45-67</h3>
-                        <h4>Cервис: service@example.ru<br>Отдел запасных частей: parts@example.ru</h4>
+                        <h4>Cервис: <span class="colortextMap">service@example.ru</span><br>Отдел запасных частей:<span
+                                class="colortextMap"> parts@example.ru</span></h4>
                         <div class="route1"><button class="route">Построить маршрут <img
                                     src="./img/arrowrigth.svg"></button>
                         </div>
@@ -383,11 +388,22 @@
     <div class="modalBody1">
         <div class="modalBody2">
             <div class="modalBox">
-                <a href="" class="modalClose">X</a>
+                <a href="" class="modalClose">
+                    <h1>X</h1>
+                </a>
                 <div class="modalContent">
                     <div class="modalText">
-                        <h1>Перезвоним в течении часа</h1>
-                        <input type="ПРИВЕТ">
+                        <h1>Запись на сервис</h1>
+                        <input class="modalInput" value="Ваше имя *">
+                        <input class="modalInput" value="Контактный телефон *">
+                        <input class="modalInput" value="Марка автомобиля *">
+                        <input class="modalComments" value="Краткое описание проблемы">
+                        <div class="modalFooter">
+                            <p>Нажимая кнопку «Отправить заявку» вы даете<br> согласие на <span
+                                    class="colortextModal">Обработку персональных данных</span>
+                            </p>
+                            <button>Отправить заявку <img src="./img/arrowrigth.svg"></button>
+                        </div>
                     </div>
                 </div>
             </div>
